@@ -12,15 +12,15 @@ html
             header.join-header
                 h1
                 i.fas.fa-kiwi-bird
-                |  WebCage
+                |  ChatApp
             main.join-main
                 form(action='/chat')
                     .form-control
-                        label(for='email') Email Address
-                        input#email(type='email' name='email' placeholder='Enter email address...' required='')
-                    .form-control
                         label(for='username') Username
                         input#username(type='text' name='username' placeholder='Enter username...' required='')
+                    //- .form-control
+                    //-     label(for='username') Username
+                    //-     input#username(type='text' name='username' placeholder='Enter username...' required='')
                     .form-control
                         label(for='room') Chat Channel
                         select#room(name='room'  required="")
