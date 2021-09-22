@@ -5,8 +5,8 @@ node_js:
 
 # cache: npm
 
-install: 
-- npm ci
+# install: 
+# - npm ci
 
 script: 
 - echo "Running webchat"
